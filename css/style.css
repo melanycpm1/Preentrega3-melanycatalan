@@ -124,4 +124,51 @@ main .grid-principal .contenedor-blanco .parrafo-principal{
 }
 /**/
 
-
+main .flex-index{
+display: flex;
+justify-content: space-between;
+background-color: #FFE3B4;
+}
+main .flex-index .pedido-rapido{
+    margin-top: 3%;
+    margin-left: 11%;
+}
+main .flex-index .trabaja-nosotros{
+    margin-top: 3%;
+    margin-right: 11% ;
+}
+main .flex-index .pedido-rapido .titulo-flex-uno{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.1875rem;
+    margin-bottom: 6%;
+}
+main .flex-index .trabaja-nosotros .titulo-flex-dos{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.1875rem;
+    text-align: right;
+    margin-bottom: 6%;
+}
+main .flex-index .pedido-rapido .parrafo-delivery{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .9375rem;
+    margin-bottom: 5%;
+}
+main .flex-index .trabaja-nosotros .parrafo-trabaja-nosotros{
+    text-align: right;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .9375rem;
+    margin-bottom: 5%;
+}
+main .flex-index .btn-pedido,.bnt-contacto{
+    padding: 2.5% 5%;
+    background-color: #28A162;
+    border: none;
+    border-radius: 10px;
+}
+main .flex-index .trabaja-nosotros .contenedor-btn{
+    text-align: right;
+}
+main .flex-index .a{
+    color: #f1f1f1;
+    text-decoration:none ;
+}
