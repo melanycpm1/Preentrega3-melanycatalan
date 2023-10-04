@@ -164,11 +164,114 @@ main .flex-index .btn-pedido,.bnt-contacto{
     background-color: #28A162;
     border: none;
     border-radius: 10px;
+    margin-bottom: 7%;
 }
 main .flex-index .trabaja-nosotros .contenedor-btn{
     text-align: right;
 }
-main .flex-index .a{
+main .a{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .8125rem;
     color: #f1f1f1;
     text-decoration:none ;
+}
+/**/
+
+main .gris-seix-productos{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    "verde verde naranja naranja ensalada ensalada"
+    "azul azul azul rosa rosa blanco";
+}
+main .gris-seix-productos .sandwich-contenedor{
+    background-color: #06A54F;
+    grid-area: verde;
+}
+main .gris-seix-productos .burguer-contenedor{
+    background-color: #FF8D24;
+    grid-area: naranja;
+}
+main .gris-seix-productos .ensalada-contenedor{
+    background-color: #9FCF64;
+    grid-area: ensalada;
+}
+main .gris-seix-productos .kids-contenedor{
+    background-color: #255DCC;
+    grid-area: azul;
+}
+main .gris-seix-productos .postres-contenedor{
+    background-color: #CF2667;
+    grid-area: rosa;
+}
+main .gris-seix-productos .color-more{
+    background-color:#f1f1f1;
+    height: 100%;
+    grid-area: blanco;
+
+}
+main .gris-seix-productos .contendor-texto-producto{
+    margin-left: 20%; /*revisar 33%*/
+    margin-top: 7%;
+}
+main .gris-seix-productos .contendor-texto-producto .titulo-productos{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.1875rem;
+    color: #f1f1f1;
+}
+main .gris-seix-productos .contendor-texto-producto .parrafo-producto{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .9375rem;
+    color: #f1f1f1;
+    margin-top: 3%;
+}
+main .gris-seix-productos .btn-ver-mas{
+    margin-top: 6%;
+    padding: 2% 6%;
+    border-radius: 30px;
+    background-color: #080707;
+    border: none;
+}
+main .gris-seix-productos .contendor-texto-producto .btn-ver-mas-helado{
+    margin-top: 10%;
+    padding: 3% 8%;
+    border-radius: 30px;
+    background-color: #080707;
+    border: none;
+}
+main .gris-seix-productos .contenedo-img{
+    display: inline;
+}
+main .gris-seix-productos .img-sandwiches{
+    width: 40%;
+    margin-top: -266.5px;
+    margin-left: 60%
+}
+main .gris-seix-productos .img-burger{
+    width: 80%;
+    margin-top:-350px;
+    margin-left: 20%;
+}
+main .gris-seix-productos .img-ensalada{
+    width: 63%;
+    margin-top: -263px;
+    margin-left: 37%;
+}
+main .gris-seix-productos .img-hotdog{
+    width: 45%;
+    margin-top: -300px;
+    margin-left: 56%;
+}main .gris-seix-productos .img-helado{
+    width: 40%;
+    margin-top: -300px;
+    margin-left: 61%;
+}
+main .contenedor-more{
+    text-align: center;
+    margin-top: 40%;
+}
+main .contenedor-more .more-parrafo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.1875rem;
 }
