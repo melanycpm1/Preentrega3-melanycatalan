@@ -275,3 +275,22 @@ main .contenedor-more .more-parrafo{
     font-family: 'Oswald', sans-serif;
     font-size: 2.1875rem;
 }
+
+/**/
+.footer-flex{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2%;
+    background-color: #28A162;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #f1f1f1;
+}
+.footer-flex .escribinos, .seguinos{
+    font-family: 'Oswald', sans-serif;
+    font-size: .8125rem;
+}
+.iconos-redes{
+    margin-right: 20%;
+}
