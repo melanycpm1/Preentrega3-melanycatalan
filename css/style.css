@@ -332,7 +332,10 @@ main .grid-hamburguesa{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
-    margin: 9% 4%;
+    margin-top: 9%;
+    margin-bottom: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 main .nombre-producto{
     font-family: 'Oswald', sans-serif;
@@ -359,19 +362,68 @@ main .btn-agregar{
     border: none;
     margin-top: 7%;
 }
-/**/
+/*ensalada*/
 
 main .grid-ensalada{
 display: grid;
 grid-template-columns: repeat(3,1fr);
 grid-template-rows: repeat(1,1fr);
-margin: 9% 4%;
+margin-top: 9%;
+margin-bottom: 6%;
+margin-left: 4%;
+margin-right: 4%;
 }
 
 main  .grid-ensalada .contenedor-ensalada{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
-    /*margin-bottom: 14%;
-    margin-right: 3%;*/
+}
+/*sandwiches*/
+main .grid-sandwich{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin-top: 9%;
+    margin-bottom: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+main .grid-sandwich .contenedor-sandwiches{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-bottom: 12%;
+}
+/**/
+
+main .grid-postre{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin-top: 9%;
+    margin-bottom: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+/**/
+main .grid-postre .contendor-postres{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+main .grid-niños{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-top: 9%;
+    margin-bottom: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+    /*margin: 9% 4%;*/
+}
+main .grid-niños .contenedos-niños{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
 }
