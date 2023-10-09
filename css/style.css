@@ -319,3 +319,59 @@ main .contenedor-titulos .titulo-h2{
     font-size: 2.1875rem;
     color: #f1f1f1;
 }
+main .img-productos{
+    width: 70%;
+    border-radius: 25px;
+}
+main .contenedor-hamburguesa{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+main .grid-hamburguesa{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin: 9% 4%;
+}
+main .nombre-producto{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 4%;
+}
+main .ingredientes{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    
+    
+}
+main .precio{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+    margin-top: 10%;
+}
+main .btn-agregar{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .8125rem;
+    padding: 4% 24%;
+    color: #f1f1f1;
+    background-color:#28A162 ;
+    border: none;
+    margin-top: 7%;
+}
+/**/
+
+main .grid-ensalada{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(1,1fr);
+margin: 9% 4%;
+}
+
+main  .grid-ensalada .contenedor-ensalada{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    /*margin-bottom: 14%;
+    margin-right: 3%;*/
+}
