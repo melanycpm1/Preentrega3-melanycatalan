@@ -427,3 +427,18 @@ main .grid-niños .contenedos-niños{
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
 }
+
+
+main .franquicias-contenedor{
+    padding: 7% 0%;
+    background-color: #FFE3B4;
+    text-align: center;
+}
+.franquicia{
+    text-align: left;
+    margin-left: 11%;
+    
+}
+.palabra-yellow{
+    color: #FEB934;
+}
