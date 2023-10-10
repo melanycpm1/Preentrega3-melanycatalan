@@ -442,3 +442,63 @@ main .franquicias-contenedor{
 .palabra-yellow{
     color: #FEB934;
 }
+
+/*franquicias*/
+
+main .grid-ventajas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-template-areas: 
+    "texto texto dibujo";
+    margin-top: 18%;
+    align-items: center
+
+}
+main .grid-ventajas .texto-franquicia{
+    grid-area: texto;
+    margin-left: 16.5%;
+    /*margin-top: 0%;*/
+}
+main .grid-ventajas .titulo-ventajas{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.1875rem;
+    margin-bottom: 1.5%;
+
+}
+main .grid-ventajas .parrafo-ventajas{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .9375rem;
+}
+main .circulo-green{
+    height: 230px;
+    width: 230px;
+    border-radius: 120px;
+    background-color: #9FCF64;
+    grid-area: dibujo;
+}
+main .numero-franquicia{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.1875rem;
+    font-style: italic;
+    color: #FF8D24;
+}
+main .negocio-franquicia{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.1875rem;
+
+}
+main .texto-requiere{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .9375rem;
+}
+
+main .carousel-margen{
+    margin-top: 10%;
+    margin-bottom: 7%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+main .carousel{
+    text-align: center;
+}
