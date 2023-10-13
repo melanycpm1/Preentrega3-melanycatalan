@@ -352,6 +352,7 @@ main .precio{
     font-family: 'Noto Sans', sans-serif;
     font-style: italic;
     margin-top: 10%;
+    font-size: .9375rem;
 }
 main .btn-agregar{
     font-family: 'Noto Sans', sans-serif;
@@ -644,7 +645,7 @@ main .grid-mapas{
     /*font-family: 'Noto Sans', sans-serif;
     font-size: .9375rem;*/
     transition: all 0.3s ease-in-out;
-    box-shadow: 0000 black;
+    box-shadow: 0 0 0 0 black;
 }
 .btn-ver-mas:active{
     transform: translate(-2px -4px);
@@ -676,9 +677,6 @@ main .grid-mapas{
 .btn-login-dos-trabaja{
     padding: 1% 23%;
 }
-main{
-    background-color: #FAF7F2;
-}
 .main-login{
     background-color: #9FCF64;
     padding: 5.5% 0%;
@@ -697,4 +695,330 @@ main{
 .btn-login-trabaja:active, .btn-login-dos-trabaja:active{
     transform: translate(-2px -4px);
     box-shadow: 12px 5px 0 0 black;
+}
+
+@media (max-width:1156px){
+
+    .header .nav-links .a{font-size: .9375rem; /*era 17px paso a 15px*/
+    }
+    .header .btn-login .a-btn,.header .btn-carrito {
+        font-size: .8125rem; /*era 15px paso a 13px*/
+    }
+    main .contenedor-titulos .titulo-h2,main .tipografia {
+        font-size: 2.0625rem;
+    }
+    main .nombre-producto {
+        font-size: 1.125rem;
+    }
+    main .ingredientes,main .grid-ventajas .parrafo-ventajas,main .texto-requiere  {
+        font-size: .8125rem; /*15px a 13px*/
+    }
+    main .precio {
+        font-size: .8125rem
+    }
+    main .btn-agregar {
+        font-size: .6875rem;
+    }
+    /**/
+    main .grid-ventajas .titulo-ventajas,main .negocio-franquicia,main .numero-franquicia   {
+        font-size: 1.5625rem;
+    }
+    main .contendor-parrafo-formulario .parrafo-formulario {
+        font-size: 10px;
+    }
+
+    .map {
+        width: 150px;
+        height: 150px;
+    }
+    .btn-ver-mas {
+        padding: 2% 12%;
+
+}
+
+@media (max-width:1035px){
+    .header .nav-links .a {
+        font-size: .8125rem;
+    }
+    .header .btn-login .a-btn, .header .btn-carrito {
+        font-size: .6875rem;
+    }
+    main .contenedor-titulos .titulo-h2 {
+        font-size: 1.9375rem;
+    }
+    main .nombre-producto {
+        font-size: 1rem;
+    }
+    main .ingredientes {
+        font-size: .6875rem;
+    }
+    main .precio {
+        font-size: .6875rem;
+    }
+    main .btn-agregar {
+        font-size: .5625rem;
+    }
+
+    /**/
+
+
+    
+}
+@media (max-width:921px){
+    .header .nav-links .a {
+        font-size: .6875rem;
+    }
+    .header .btn-login .a-btn, .header .btn-carrito {
+        font-size: .5625rem;
+    }
+    main .contenedor-titulos .titulo-h2 {
+        font-size: 1.8125rem;
+    }
+    main .nombre-producto {
+        font-size: .875rem;
+    }
+    main .ingredientes,main .grid-ventajas .parrafo-ventajas,main .texto-requiere {
+        font-size: .5625rem;
+    }
+    main .precio {
+        font-size: .5625rem;
+    }
+    main .btn-agregar,main .contenedor-boton .btn-enviar {
+        font-size: .4375rem;
+    }
+    .footer-flex .escribinos, .seguinos {
+        font-size: .6875rem;
+    }
+    main .grid-ventajas .titulo-ventajas {
+        font-size: 1.25rem;
+    }
+    
+}
+
+@media (max-width:895px){
+    main .nombre-producto {
+        font-size: .75rem;
+    }
+    main .ingredientes {
+        font-size: .5625rem;
+    }
+    .header .btn-login, .btn-carrito {
+        padding: 9px 25px;
+    }
+}
+
+@media (max-width:699px){
+    main .nombre-producto {
+        font-size: .5625rem;
+    }
+    main .ingredientes {
+        font-size: .5rem;
+    }
+    .header .nav-links .a {
+        font-size: .5625rem;
+    }
+    .header .btn-login .a-btn, .header .btn-carrito {
+        font-size: 8px;
+    }
+    main .contenedor-titulos .titulo-h2 {
+        font-size: 1.6875rem;
+    };
+    main .precio {
+        font-size: .0437rem;
+    }
+    main .btn-agregar {
+        font-size: .375rem;
+    }
+    .footer-flex .escribinos, .seguinos {
+        font-size: .4375rem;
+    }
+}
+@media (max-width:629px){
+    main .nombre-producto {
+        font-size: .4375rem;
+    }
+    main .ingredientes {
+        font-size: .375rem;
+    }
+    .header .nav-links .a {
+        font-size: .5625rem;
+    }
+    .header .btn-login .a-btn, .header .btn-carrito {
+        font-size: .375rem;
+    }
+    .header .btn-login, .btn-carrito {
+        padding: 7px 23px;
+    }
+    main .contenedor-titulos .titulo-h2 {
+        font-size: 1.5625rem;
+    };
+    /*main .precio {
+        font-size: .0437rem;
+    }
+    main .btn-agregar {
+        font-size: .375rem;
+    }*/
+    .footer-flex .escribinos, .seguinos {
+        font-size: .375rem;
+    }
+    .map {
+        width: 100px;
+        height: 100px;
+    }
+    .grid-mapas .lugares {
+        font-size: 1.5625rem;
+    }
+    .btn-ver-mas {    
+        padding: 2% 4%
+    }
+    .btn-ver-mas .link {
+        font-size: .625rem;
+    }
+}
+/**/
+@media (max-width:483px){
+    main .circulo-green {
+        height: 70px;
+        width: 70px;
+        border-radius: 100px;
+    }
+}
+@media (max-width:580px){
+    .header .nav-links .a {
+        font-size: .4375rem;
+    }
+    .header .btn-login, .btn-carrito {
+        padding: 3px 18px;
+    }
+    .header .nav-links li {
+        display: inline-block;
+        padding: 0 12px;
+    }
+    .header {
+        justify-content: space-around
+    }
+    main .grid-ventajas .titulo-ventajas{
+        font-size: .9375rem;
+    }
+    main .grid-ventajas .parrafo-ventajas, main .texto-requiere{
+        font-size: 8px;
+    }
+    main .circulo-green {
+        height: 150px;
+        width: 150px;
+        border-radius: 100px;
+    }
+}
+
+@media (max-width:457px){
+    .header .nav-links .a {
+        font-size: .9375rem;
+    }
+    main .contenedor-titulos .titulo-h2, main .tipografia {
+
+        font-size: 1.25rem;
+    }
+    main .nombre-producto {
+        font-size: 1.125rem;
+    }
+    main .precio {
+        font-size: .8125rem;
+    }
+    main .btn-agregar {
+        font-size: .6875rem;
+    }
+    .footer-flex .escribinos, .seguinos {
+        font-size: .8125rem;
+    }
+    .header .nav-links li {
+        padding: 0 60px;
+    }
+    .header {
+        height: 180px;
+    }
+    main .grid-hamburguesa {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(9,1fr); 
+        
+    }
+    main .ingredientes {
+        font-size: .6875rem;
+    }
+    main .grid-ensalada {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+
+    }
+    main .grid-sandwich {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(7,1fr);
+        
+    }
+    main .grid-postre {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(9,1fr);
+        
+    }
+    main .grid-niños {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,1fr);
+        
+    }
+    .footer-flex .escribinos, .seguinos {
+        font-size: .4375rem
+    }
+    main .circulo-green {
+        height: 100px;
+        width: 100px;
+        border-radius: 80px;
+    }
+}
+
+
+@media (max-width:361px){
+    .header .nav-links .a {
+        font-size: .8125rem;
+    }
+    .header .nav-links li {
+        padding: 0 40px;
+    }
+    main .tipografia {
+        font-size: 2.5rem;
+        
+    }
+    main .nombre-producto {
+        font-size: .9375rem;
+    }
+    main .ingredientes {
+        font-size: .5625rem;
+    }
+    main .btn-agregar {
+        font-size: .5625rem;
+    }
+    .footer-flex .escribinos, .seguinos {
+        font-size: .3125rem;
+        justify-content: space-evenly
+    }
+    main .grid-ventajas .parrafo-ventajas, main .texto-requiere{
+        font-size: 6.5px
+    }
+    main .contendor-parrafo-formulario .parrafo-formulario{
+        font-size: .4rem;
+    }
+    main .circulo-green {
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+    }
+}
+@media (max-width:287px){
+    main .tipografia {
+        font-size: 2rem;
+    }
+    main .nombre-producto {
+        font-size: .625rem;
+    }
+    main .ingredientes {
+        font-size: .5rem;
+    }
 }
