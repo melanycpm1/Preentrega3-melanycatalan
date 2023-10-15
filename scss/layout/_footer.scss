@@ -1,0 +1,20 @@
+.footer-flex{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2%;
+    background-color: $bg-btn-green;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: $color-white;
+    .escribinos{
+        font-family: 'Oswald', sans-serif;
+        font-size: map-get($map: $font-size, $key:parrafo-md );
+    }
+    .seguinos{
+        @extend .escribinos
+    }
+    .iconos-redes{
+        margin-right: 20%;
+    }
+}

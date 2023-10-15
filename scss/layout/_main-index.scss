@@ -1,0 +1,216 @@
+.grid-principal{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    "blanco blanco amarillo amarillo amarillo"
+    "blanco blanco amarillo amarillo amarillo";
+    .contenedor-blanco{
+        grid-area:blanco ;
+        background-color: $color-white;
+        .contenedor-new{
+            margin-left: 28%;
+            margin-top: 15%;
+            margin-bottom: 6%;
+            .new{
+                font-family: 'Oswald', sans-serif;
+                padding: 1.5% 3%;
+                font-size: .9375rem;
+                background-color: #D9D9D9;
+            
+            }    
+        }
+        .contenedor-texto{
+            margin-left: 27%;
+            margin-bottom: 15%;
+            margin-right: 3%;
+        }
+        .contenedor-h1-index{
+            font-family: 'Oswald', sans-serif;
+            font-size: map-get($map: $font-size, $key:h1 );
+        }
+        .parrafo-principal{
+            font-family: 'Noto Sans', sans-serif;
+            font-size: map-get($map: $font-size, $key:parrafo-xx ) ;
+            font-style: italic;
+            
+        }
+        
+    }
+    .contenedor-amarillo{
+        grid-area:amarillo ;
+        background-color: $color-yellow;
+        .img-principal{
+            position: absolute;
+            width: 50%;
+            top: 25%;
+            right: 20%;
+        }
+        .img-secundario{
+            position: absolute;
+            width: 40%;
+            top:23% ;
+            left: 60%;
+        }
+    }
+}
+
+
+.flex-index{
+    display: flex;
+    justify-content: space-between;
+    background-color: $bg-secundario;
+    .pedido-rapido{
+        margin-top: 3%;
+        margin-left: 11%;
+        .titulo-flex-uno{
+            font-family: 'Oswald', sans-serif;
+            font-size: map-get($map: $font-size, $key:parrafo-xxl );
+            margin-bottom: 6%;
+        }
+        .parrafo-delivery{
+            font-family: 'Noto Sans', sans-serif;
+            font-size: map-get($map: $font-size, $key:parrafo-md );
+            margin-bottom: 5%;
+        }
+    }
+    .trabaja-nosotros{
+        margin-top: 3%;
+        margin-right: 11% ;
+        .titulo-flex-dos{
+            font-family: 'Oswald', sans-serif; 
+            font-size: map-get($map: $font-size, $key:parrafo-xxl );
+            text-align: right; 
+            margin-bottom: 6%;
+        }
+        .parrafo-trabaja-nosotros{
+            text-align: right;
+            font-family: 'Noto Sans', sans-serif;
+            font-size: map-get($map: $font-size, $key:parrafo-md );
+            margin-bottom: 5%;
+        }
+    }
+    .bnt-contacto{
+        padding: 2.5% 5%;
+        background-color: $bg-btn-green;
+        border: none;
+        border-radius: 10px;
+    }
+    .btn-pedido{
+        @extend .bnt-contacto
+    }
+}
+
+
+.contenedor-btn-contacto{
+        text-align: right;
+        margin-bottom: 7%;
+    }
+.contenedor-btn-pedido{
+        @extend .contenedor-btn-contacto;
+        text-align: left;
+    }
+
+    .a{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: map-get($map: $font-size, $key: parrafo-md );
+        color: #f1f1f1;
+        text-decoration:none ;
+    }
+.gris-seix-productos{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    "verde verde naranja naranja ensalada ensalada"
+    "azul azul azul rosa rosa blanco";
+    .contendor-texto-producto{
+        margin-left: 15.5%; 
+        margin-top: 7%;
+        .titulo-productos{
+            font-family: 'Oswald', sans-serif;
+            font-size: map-get($map: $font-size, $key:parrafo-xxl );
+            color: $color-white;
+        }
+        .parrafo-producto{
+            font-family: 'Noto Sans', sans-serif;
+            font-size: map-get($map: $font-size, $key:parrafo-xx );
+            color: #f1f1f1;
+            margin-top: 3%;
+        }
+        
+    }
+    
+    .sandwich-contenedor{
+        background-color: $bg-principal;
+        grid-area: verde;
+        .img-sandwiches{
+            width: 40%;
+            margin-top: -310.5px;
+            margin-left: 60%
+        }
+    }
+    .burguer-contenedor{
+        background-color: $bg-naranja;
+        grid-area: naranja;
+        .img-burger{
+            width: 80%;
+            margin-top:-390px;
+            margin-left: 20%;
+        }
+    }
+    .ensalada-contenedor{
+        background-color: $bg-verdecito;
+        grid-area: ensalada;
+        .img-ensalada{
+            width: 63%;
+            margin-top: -310px;
+            margin-left: 37%;
+        }
+    }
+    .kids-contenedor{
+        background-color: $bg-azul;
+        grid-area: azul;
+        .img-hotdog{
+            width: 45%;
+            margin-top: -300px;
+            margin-left: 56%;
+        }
+    }
+    .postres-contenedor{
+        background-color:$bg-rosa;
+        grid-area: rosa;
+        .img-helado{
+            width: 40%;
+            margin-top: -300px;
+            margin-left: 61%;
+        }
+    }
+    .color-more{
+        background-color:$color-white;
+        height: 100%;
+        grid-area: blanco;
+        .contenedor-more{
+            text-align: center;
+            margin-top: 40%;
+            .more-parrafo{
+                font-family: "Oswald", sans-serif;
+                font-size:map-get($map: $font-size, $key:parrafo-xxl );
+                color: $bg-black;
+            }
+}
+    }
+    .btn-ver-mas{
+        margin-top: 6%;
+        padding: 2% 6%;
+        border-radius: 30px;
+        background-color: $bg-black;
+        border: none;
+    }
+    .btn-ver-mas-helado{
+        @extend .btn-ver-mas;
+        margin-top: 10%;
+        padding: 3% 8%;
+    }
+    
+}
