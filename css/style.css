@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*utilities*/
 /*base*/
 * {
@@ -264,6 +265,255 @@
   padding: 3% 8%;
 }
 
+.contenedores {
+  padding: 12% 0%;
+  background-color: #FFE3B4;
+  text-align: center;
+}
+.contenedores .tipografia {
+  font-family: "Oswald", sans-serif;
+  font-size: 3.75rem;
+  color: #fff9f9;
+  letter-spacing: 3px;
+}
+
+.contenedor-titulos {
+  background-color: #9FCF64;
+  padding: 3% 0%;
+  text-align: center;
+}
+.contenedor-titulos .titulo-h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.1875rem;
+  color: #fff9f9;
+}
+
+.grid-hamburguesa {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-top: 9%;
+  margin-bottom: 6%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.grid-hamburguesa .contenedor-hamburguesa {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.img-productos {
+  width: 70%;
+  border-radius: 25px;
+}
+
+.nombre-producto {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 4%;
+}
+
+.ingredientes {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+}
+
+.precio {
+  font-family: "Noto Sans", sans-serif;
+  font-style: italic;
+  margin-top: 10%;
+  font-size: 0.9375rem;
+}
+
+.btn-agregar {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.8125rem;
+  padding: 4% 24%;
+  color: #fff9f9;
+  background-color: #28A162;
+  border: none;
+  margin-top: 7%;
+}
+
+.grid-ensalada {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  margin-top: 9%;
+  margin-bottom: 6%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.grid-ensalada .contenedor-ensalada {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-sandwich {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-top: 9%;
+  margin-bottom: 6%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.grid-sandwich .contenedor-sandwiches {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-bottom: 12%;
+}
+
+.grid-postre {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-top: 9%;
+  margin-bottom: 6%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.grid-postre .contendor-postres {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-niños {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 9%;
+  margin-bottom: 6%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.grid-niños .contenedos-niños {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-bottom: 12%;
+}
+
+.franquicias-contenedor {
+  padding: 8% 0%;
+  background-color: #FFE3B4;
+  text-align: center;
+}
+.franquicias-contenedor .tipografia {
+  font-family: "Oswald", sans-serif;
+  font-size: 3.75rem;
+  color: #fff9f9;
+  letter-spacing: 3px;
+}
+.franquicias-contenedor .franquicia {
+  text-align: left;
+  margin-left: 11%;
+}
+.franquicias-contenedor .franquicia .palabra-yellow {
+  color: #FEB934;
+}
+
+.grid-ventajas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas: "texto texto dibujo";
+  margin-top: 18%;
+  align-items: center;
+}
+.grid-ventajas .texto-franquicia {
+  grid-area: texto;
+  margin-left: 16.5%;
+}
+.grid-ventajas .titulo-ventajas {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.1875rem;
+  margin-bottom: 1.5%;
+}
+.grid-ventajas .parrafo-ventajas {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.9375rem;
+}
+.grid-ventajas .circulo-green {
+  height: 230px;
+  width: 230px;
+  border-radius: 120px;
+  background-color: #9FCF64;
+  grid-area: dibujo;
+}
+.grid-ventajas .numero-franquicia {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2.1875rem;
+  font-style: italic;
+  color: #FF8D24;
+}
+.grid-ventajas .negocio-franquicia {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.1875rem;
+}
+.grid-ventajas .texto-requiere {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.9375rem;
+}
+
+.contendor-parrafo-formulario {
+  margin-bottom: 10%;
+}
+.contendor-parrafo-formulario .parrafo-formulario {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.9375rem;
+  text-align: center;
+}
+
+.contenedor-formulario {
+  margin-bottom: 10%;
+}
+.contenedor-formulario .grid-formulario {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "email nombre" "whatsapp whatsapp";
+  text-align: center;
+}
+.contenedor-formulario .grid-formulario .input-form {
+  width: 70%;
+  height: 75%;
+  border-radius: 30px;
+}
+.contenedor-formulario .grid-formulario .correo-electronico {
+  grid-area: email;
+  margin-bottom: 6%;
+}
+.contenedor-formulario .grid-formulario .nombre {
+  grid-area: nombre;
+  margin-bottom: 6%;
+}
+.contenedor-formulario .grid-formulario .whatsapp {
+  grid-area: whatsapp;
+  margin-bottom: 3%;
+}
+.contenedor-formulario .grid-formulario .input-tel {
+  width: 85%;
+  height: 75%;
+  border-radius: 30px;
+}
+
+.contenedor-boton {
+  text-align: center;
+  margin-top: 3%;
+}
+.contenedor-boton .btn-enviar {
+  background-color: #FEB934;
+  padding: 1% 3%;
+  border: none;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.9375rem;
+}
+
 .footer-flex {
   display: flex;
   justify-content: flex-end;
@@ -283,6 +533,30 @@
 }
 
 /*components*/
+.carousel-margen {
+  margin-top: 10%;
+  margin-bottom: 14%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.carousel-margen .carousel {
+  text-align: center;
+}
+.carousel-margen .numero-franquicia {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2.1875rem;
+  font-style: italic;
+  color: #FF8D24;
+}
+.carousel-margen .negocio-franquicia {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.1875rem;
+}
+.carousel-margen .texto-requiere {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.9375rem;
+}
+
 /*media querrys*/
 
 /*# sourceMappingURL=style.css.map */

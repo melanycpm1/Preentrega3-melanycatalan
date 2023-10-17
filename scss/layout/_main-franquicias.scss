@@ -1,0 +1,122 @@
+.franquicias-contenedor{
+    padding: 8% 0%;
+    background-color: #FFE3B4;
+    text-align: center;
+    .tipografia{
+        font-family: 'Oswald', sans-serif;
+        font-size: map-get($map: $font-size, $key:parrafo-sm);
+        color: $color-white;
+        letter-spacing: 3px;
+    }
+    .franquicia{
+        text-align: left;
+        margin-left: 11%;
+        .palabra-yellow{
+            color: $color-yellow;
+        }
+        
+    }
+}
+
+
+.grid-ventajas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-template-areas: 
+    "texto texto dibujo";
+    margin-top: 18%;
+    align-items: center;
+    .texto-franquicia{
+        grid-area: texto;
+        margin-left: 16.5%;
+    }
+    .titulo-ventajas{
+        font-family: 'Oswald', sans-serif;
+        font-size: map-get($map: $font-size, $key:parrafo-xxl );
+        margin-bottom: 1.5%;
+    
+    }
+    .parrafo-ventajas{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: map-get($map: $font-size, $key:parrafo-md );
+    }
+    .circulo-green{
+        height: 230px;
+        width: 230px;
+        border-radius: 120px;
+        background-color: #9FCF64;
+        grid-area: dibujo;
+    }
+    .numero-franquicia{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: map-get($map: $font-size, $key:parrafo-xxl );
+        font-style: italic;
+        color: #FF8D24;
+    }
+    .negocio-franquicia{
+        font-family: 'Oswald', sans-serif;
+        font-size:map-get($map: $font-size, $key:parrafo-xxl );
+    
+    }
+    .texto-requiere{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: map-get($map: $font-size, $key: parrafo-md );
+    }
+    
+}
+
+.contendor-parrafo-formulario{
+    margin-bottom: 10%;
+    .parrafo-formulario{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: map-get($map: $font-size, $key: parrafo-md );
+        text-align: center;
+    }
+}
+.contenedor-formulario{
+    margin-bottom: 10%;
+    .grid-formulario{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas: 
+        "email nombre"
+        "whatsapp whatsapp";
+        text-align: center;
+        .input-form{
+            width: 70%;
+            height: 75%;
+            border-radius: 30px;
+        }
+        .correo-electronico{
+            grid-area: email;
+            margin-bottom: 6%;
+        }
+        .nombre{
+            grid-area: nombre;
+            margin-bottom: 6%;
+        }
+        .whatsapp{
+            grid-area: whatsapp;
+            margin-bottom: 3%;
+        }
+        .input-tel{
+            width: 85%;
+            height: 75%;
+            border-radius: 30px;
+        }
+    }
+}
+
+.contenedor-boton{
+    text-align: center;
+    margin-top: 3%;
+    .btn-enviar{
+        background-color: #FEB934;
+        padding: 1% 3%;
+        border: none;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: map-get($map: $font-size, $key: parrafo-md );
+    }
+}

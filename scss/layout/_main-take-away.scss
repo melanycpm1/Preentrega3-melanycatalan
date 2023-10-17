@@ -1,0 +1,129 @@
+.contenedores{
+    padding: 12% 0%;
+    background-color: $bg-secundario;
+    text-align: center;
+    .tipografia{
+        font-family: 'Oswald', sans-serif;
+        font-size:map-get($map: $font-size, $key:parrafo-sm );
+        color: $color-white;
+        letter-spacing: 3px;
+    }
+}
+.contenedor-titulos{
+    background-color: $bg-verdecito;
+    padding: 3% 0%;
+    text-align: center;
+    .titulo-h2{
+        font-family: 'Oswald', sans-serif;
+        font-size: map-get($map: $font-size, $key:parrafo-xxl );
+        color: $color-white;
+    }
+}
+
+.grid-hamburguesa{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin-top: 9%;
+    margin-bottom: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+    .contenedor-hamburguesa{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);  
+    }
+}
+
+.img-productos{
+    width: 70%;
+    border-radius: 25px;
+}
+.nombre-producto{
+    font-family: 'Oswald', sans-serif;
+    font-size: map-get($map: $font-size, $key:parrafo-micro );
+    margin-bottom: 4%;
+}
+.ingredientes{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    
+    
+}
+.precio{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+    margin-top: 10%;
+    font-size: map-get($map: $font-size, $key:parrafo-md );
+}
+.btn-agregar{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .8125rem;
+    padding: 4% 24%;
+    color: $color-white;
+    background-color:$bg-btn-green ;
+    border: none;
+    margin-top: 7%;
+}
+
+.grid-ensalada{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    margin-top: 9%;
+    margin-bottom: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+    .contenedor-ensalada{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+.grid-sandwich{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin-top: 9%;
+    margin-bottom: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+    .contenedor-sandwiches{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        margin-bottom: 12%;
+    }
+}
+
+.grid-postre{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin-top: 9%;
+    margin-bottom: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+    .contendor-postres{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+.grid-niños{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        margin-top: 9%;
+        margin-bottom: 6%;
+        margin-left: 4%;
+        margin-right: 4%;
+        .contenedos-niños{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2,1fr);
+            margin-bottom: 12%;
+        }
+}
