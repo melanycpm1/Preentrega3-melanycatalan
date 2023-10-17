@@ -1,0 +1,17 @@
+@media (max-width:895px){
+    main .nombre-producto {
+        font-size: .75rem;
+    }
+    main .ingredientes {
+        font-size: .5625rem;
+    }
+    .header .btn-login, .btn-carrito {
+        padding: 9px 25px;
+    }
+    .contenedor-lugares .grid-mapas {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        margin-top: 10%;
+    }
+}

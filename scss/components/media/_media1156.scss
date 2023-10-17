@@ -1,0 +1,39 @@
+@media (max-width:1156px){
+
+    .header .nav-links .a{font-size: .9375rem; /*era 17px paso a 15px*/
+    }
+    .header .btn-login .a-btn,.header .btn-carrito {
+        font-size: .8125rem; /*era 15px paso a 13px*/
+    }
+    main .contenedor-titulos .titulo-h2,main .tipografia {
+        font-size: 2.0625rem;
+    }
+    main .nombre-producto {
+        font-size: 1.125rem;
+    }
+    main .ingredientes,main .grid-ventajas .parrafo-ventajas,main .texto-requiere  {
+        font-size: .8125rem; /*15px a 13px*/
+    }
+    main .precio {
+        font-size: .8125rem
+    }
+    main .btn-agregar {
+        font-size: .6875rem;
+    }
+    /**/
+    main .grid-ventajas .titulo-ventajas,main .negocio-franquicia,main .numero-franquicia   {
+        font-size: 1.5625rem;
+    }
+    main .contendor-parrafo-formulario .parrafo-formulario {
+        font-size: 10px;
+    }
+
+    .map {
+        width: 150px;
+        height: 150px;
+    }
+    .btn-ver-mas {
+        padding: 2% 12%;
+    }
+
+}

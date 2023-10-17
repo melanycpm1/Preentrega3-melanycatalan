@@ -1,0 +1,29 @@
+@media (max-width:580px){
+    .header .nav-links .a {
+        font-size: .4375rem;
+    }
+    .header .btn-login, .btn-carrito {
+        padding: 3px 18px;
+    }
+    .header .nav-links li {
+        display: inline-block;
+        padding: 0 12px;
+    }
+    .header {
+        justify-content: space-around
+    }
+    main .grid-ventajas .titulo-ventajas{
+        font-size: .9375rem;
+    }
+    main .grid-ventajas .parrafo-ventajas, main .texto-requiere{
+        font-size: 8px;
+    }
+    main .circulo-green {
+        height: 150px;
+        width: 150px;
+        border-radius: 100px;
+    }
+    .franquicias-contenedor .franquicia {
+        font-size: 1.875rem;
+    }
+}

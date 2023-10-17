@@ -1,0 +1,42 @@
+@media (max-width:629px){
+    .nombre-producto {
+        font-size: .4375rem;
+    }
+    .ingredientes {
+        font-size: .375rem;
+    }
+    .a {
+        font-size: .5625rem;
+    }
+    .btn-carrito {
+        font-size: .375rem;
+    }
+    .header .btn-login, .btn-carrito {
+        padding: 7px 23px;
+    }
+    .titulo-h2 {
+        font-size: 1.5625rem;
+    };
+    /*main .precio {
+        font-size: .0437rem;
+    }
+    main .btn-agregar {
+        font-size: .375rem;
+    }*/
+    .escribinos, .seguinos {
+        font-size: .375rem;
+    }
+    .map {
+        width: 100px;
+        height: 100px;
+    }
+    .lugares {
+        font-size: 1.5625rem;
+    }
+    .btn-ver-mas {    
+        padding: 2% 4%
+    }
+    .link {
+        font-size: .625rem;
+    }
+}

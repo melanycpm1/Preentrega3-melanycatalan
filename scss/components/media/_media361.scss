@@ -1,0 +1,36 @@
+@media (max-width:361px){
+    .header .nav-links .a {
+        font-size: .8125rem;
+    }
+    .header .nav-links li {
+        padding: 0 40px;
+    }
+    main .tipografia {
+        font-size: 2.5rem;
+        
+    }
+    main .nombre-producto {
+        font-size: .9375rem;
+    }
+    main .ingredientes {
+        font-size: .5625rem;
+    }
+    main .btn-agregar {
+        font-size: .5625rem;
+    }
+    .footer-flex .escribinos, .seguinos {
+        font-size: .3125rem;
+        justify-content: space-evenly
+    }
+    main .grid-ventajas .parrafo-ventajas, main .texto-requiere{
+        font-size: 6.5px
+    }
+    main .contendor-parrafo-formulario .parrafo-formulario{
+        font-size: .4rem;
+    }
+    main .circulo-green {
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+    }
+}

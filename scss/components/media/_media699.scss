@@ -1,0 +1,26 @@
+@media (max-width:699px){
+    main .nombre-producto {
+        font-size: .5625rem;
+    }
+    main .ingredientes {
+        font-size: .5rem;
+    }
+    .header .nav-links .a {
+        font-size: .5625rem;
+    }
+    .header .btn-login .a-btn, .header .btn-carrito {
+        font-size: 8px;
+    }
+    main .contenedor-titulos .titulo-h2 {
+        font-size: 1.6875rem;
+    };
+    main .precio {
+        font-size: .0437rem;
+    }
+    main .btn-agregar {
+        font-size: .375rem;
+    }
+    .footer-flex .escribinos, .seguinos {
+        font-size: .4375rem;
+    }
+}
