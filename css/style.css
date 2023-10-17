@@ -39,16 +39,16 @@
 .header .btn-login, .header .btn-carrito {
   padding: 9px 35px;
   border-radius: 50px;
-  background-color: #f1f1f1;
+  background-color: #fff9f9;
   border: solid 2px black;
 }
 .header .btn-login:hover, .header .btn-carrito:hover {
   transform: scale(1.1);
   background-color: #28A162;
-  color: #f1f1f1;
+  color: #fff9f9;
 }
 .header .btn-login .a-btn, .header .btn-carrito .a-btn {
-  color: #275f42;
+  color: #9FCF64;
   text-decoration: none;
   font-family: "Oswald", sans-serif;
   font-size: 0.9375rem;
@@ -624,6 +624,42 @@
   text-decoration: none;
   font-family: "Noto Sans", sans-serif;
   font-size: 0.9375rem;
+}
+
+.main-login {
+  background-color: #9FCF64;
+  padding: 5.5% 0%;
+}
+.main-login .contenedor-login {
+  /*margin: ;*/
+  text-align: center;
+}
+.main-login .contenedor-login .h2-login {
+  font-size: 3.75rem;
+  color: #fff9f9;
+  letter-spacing: 3px;
+  color: #FEB934;
+}
+.main-login .contenedor-login .btn-login-trabaja, .main-login .contenedor-login .btn-login-dos-trabaja {
+  background-color: #fff9f9;
+  border-radius: 20px;
+  border: none;
+  font-family: "Oswald", sans-serif;
+  font-size: 0.8125rem;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 #080707;
+  padding: 1% 20%;
+  margin-bottom: 3%;
+  margin-top: 6%;
+}
+.main-login .contenedor-login .btn-login-trabaja:active, .main-login .contenedor-login .btn-login-dos-trabaja:active {
+  transform: translate(-2px -4px);
+  box-shadow: 12px 5px 0 0 #080707;
+}
+.main-login .contenedor-login .btn-login-dos-trabaja {
+  padding: 1% 24%;
+  margin-bottom: 0%;
+  margin-top: 0%;
 }
 
 .footer-flex {

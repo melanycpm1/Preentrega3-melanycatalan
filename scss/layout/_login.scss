@@ -1,0 +1,38 @@
+.main-login{
+    background-color: #9FCF64;
+    padding: 5.5% 0%;
+    .contenedor-login{
+        /*margin: ;*/
+        text-align: center;
+        .h2-login{
+            font-size: map-get($map: $font-size, $key: parrafo-sm);
+            color:$color-white;
+            letter-spacing: 3px;
+            color: $color-yellow;
+        }
+        .btn-login-trabaja{
+            background-color: $color-white;
+            border-radius: 20px;
+            border: none;
+            font-family: 'Oswald', sans-serif;
+            font-size: .8125rem;
+            transition: all 0.5s ease-in-out;
+            box-shadow: 0000 $bg-black;
+            padding: 1% 20%;
+            margin-bottom: 3%;
+            margin-top: 6%;
+            &:active{
+                transform: translate(-2px -4px);
+                box-shadow: 12px 5px 0 0 $bg-black;
+            }
+        }
+        .btn-login-dos-trabaja{
+            @extend .btn-login-trabaja;
+            padding: 1% 24%;
+            margin-bottom: 0%;
+            margin-top: 0%;
+        }
+    }
+    
+}
+
