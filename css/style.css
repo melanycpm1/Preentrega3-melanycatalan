@@ -514,6 +514,118 @@
   font-size: 0.9375rem;
 }
 
+.trabaja-contenedor {
+  padding: 8% 0%;
+  background-color: #9FCF64;
+  text-align: center;
+}
+.trabaja-contenedor .tipografia {
+  font-family: "Oswald", sans-serif;
+  font-size: 3.75rem;
+  color: #fff9f9;
+  letter-spacing: 3px;
+}
+.trabaja-contenedor .franquicia {
+  text-align: left;
+  margin-left: 11%;
+}
+.trabaja-contenedor .franquicia .palabra-yellow {
+  color: #FEB934;
+}
+
+.contenedor-parrafo-trabaja {
+  text-align: center;
+  margin: 6% 0%;
+}
+.contenedor-parrafo-trabaja .parrafo-trabaja {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.9375rem;
+}
+
+.grid-trabaja {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  text-align: center;
+  margin-bottom: 4%;
+}
+.grid-trabaja .contenedor-trabaja {
+  margin-bottom: 6%;
+}
+.grid-trabaja .contenedor-trabaja .form-trabajo {
+  height: 50px;
+  width: 70%;
+  border-radius: 30px;
+}
+.grid-trabaja .contenedor-btn {
+  margin-top: -4%;
+}
+.grid-trabaja .contenedor-btn .btn-trabajo {
+  padding: 1.5% 30%;
+  background-color: #9FCF64;
+  border: none;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.875rem;
+  color: #f1f1f1;
+}
+
+.contenedor-btn-trabaja {
+  text-align: center;
+}
+.contenedor-btn-trabaja .btn-enviar-trabaja {
+  padding: 1% 4%;
+  border: none;
+  background-color: #FEB934;
+  margin-bottom: 15%;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.9375rem;
+}
+
+.contenedor-lugares {
+  text-align: center;
+  background-color: #FAF7F2;
+  padding-bottom: 10%;
+  padding-top: 6%;
+}
+.contenedor-lugares .encontrarnos {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.1875rem;
+}
+.contenedor-lugares .grid-mapas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  margin-top: 10%;
+}
+.contenedor-lugares .grid-mapas .lugares {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.875rem;
+  color: #FEB934;
+}
+.contenedor-lugares .grid-mapas .map {
+  width: 200px;
+  height: 200px;
+}
+.contenedor-lugares .grid-mapas .btn-ver-mas, .contenedor-lugares .grid-mapas .gris-seix-productos .btn-ver-mas-helado, .gris-seix-productos .contenedor-lugares .grid-mapas .btn-ver-mas-helado {
+  padding: 2% 14%;
+  background-color: #FEB934;
+  border: none;
+  /*font-family: 'Noto Sans', sans-serif;
+  font-size: .9375rem;*/
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 0 0 black;
+}
+.contenedor-lugares .grid-mapas .btn-ver-mas:active, .contenedor-lugares .grid-mapas .gris-seix-productos .btn-ver-mas-helado:active, .gris-seix-productos .contenedor-lugares .grid-mapas .btn-ver-mas-helado:active {
+  transform: translate(-2px -4px);
+  box-shadow: 12px 5px 0 0 black;
+}
+.contenedor-lugares .grid-mapas .btn-ver-mas .link, .contenedor-lugares .grid-mapas .gris-seix-productos .btn-ver-mas-helado .link, .gris-seix-productos .contenedor-lugares .grid-mapas .btn-ver-mas-helado .link {
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.9375rem;
+}
+
 .footer-flex {
   display: flex;
   justify-content: flex-end;
